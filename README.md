@@ -1,4 +1,4 @@
-# QuickWallForHeliumBalloo
+# QuickWallForHeliumBalloon
 A demo howto place and remove Walls on the fly with HeliumBalloon.
 
 To place a wall, enter
