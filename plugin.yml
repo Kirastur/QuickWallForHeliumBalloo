@@ -1,0 +1,28 @@
+name: QuickWallForHeliumBalloon
+version: 1.9
+description: A demo howto place and remove Walls on the fly
+author: Kirastur
+website: https://github.com/Kirastur/QuickWallForHeliumBalloon
+
+
+api-version: 1.17
+load: POSTWORLD
+main: de.polarwolf.quickwall.Main
+depend: [HeliumBalloon]
+
+commands:
+    quickwallplace:
+        description: Place the QuickWall
+        permission: quickwall.admin
+        permission-message: You don't have the permission to place a QuickWall
+
+    quickwallremove:
+        description: Remove the QuickWall
+        permission: quickwall.admin
+        permission-message: You don't have the permission to remove a QuickWall
+
+permissions:
+    quickwall.admin:
+        description: Should user be able to place and remove Quickwalls?
+        default: op
+        
