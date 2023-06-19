@@ -1,11 +1,11 @@
 name: QuickWallForHeliumBalloon
-version: 1.9
+version: 2.0
 description: A demo howto place and remove Walls on the fly
 author: Kirastur
 website: https://github.com/Kirastur/QuickWallForHeliumBalloon
 
 
-api-version: 1.17
+api-version: 1.19
 load: POSTWORLD
 main: de.polarwolf.quickwall.Main
 depend: [HeliumBalloon]

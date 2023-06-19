@@ -45,7 +45,7 @@ public class PlaceCommand implements CommandExecutor {
 		}
 
 		if (!main.createQuickWall(sender, position.toLocation(world))) {
-			sender.sendMessage("Have you deleted the demos in HeliumBalloon's config.yml?");
+			sender.sendMessage("Placing the quickwall failed");
 		}
 		return true;
 	}

@@ -20,7 +20,7 @@ public class RemoveCommand implements CommandExecutor {
 			sender.sendMessage("Usage: /quickwallremove");
 			return false;
 		}
-		
+
 		main.removeQuickWall(sender);
 		return true;
 	}

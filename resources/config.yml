@@ -1,0 +1,17 @@
+# Welcome to the QuickWallForHeliumBalloon configuration settings
+#
+# This is a Demo-Plugin for HeliumBalloon
+# to demonstrate how you can place and remove Walls on the fly
+# with HeliumBalloon.
+#
+# Get the HeliumBalloon plugin from
+#   https://www.spigotmc.org/resources/heliumballoon.95902
+#
+#
+# The following configuration is loaded as part of the Balloon Config.
+# It defines which template should be used for the QuickWall
+#
+targetSection: "HeliumBalloon"
+targetTemplate: "demo6"
+targetBehavior: "fixed"
+targetBalloon: "walls"
